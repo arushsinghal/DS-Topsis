@@ -13,7 +13,7 @@ os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 EMAIL_REGEX = r'^[\w\.-]+@[\w\.-]+\.\w+$'
 
 # Get credentials from environment variables
-SENDER_EMAIL = os.getenv("SENDER_EMAIL", "arushsinghal98@gmail.com")
+SENDER_EMAIL = os.getenv("SENDER_EMAIL", "your-email@example.com")
 SENDER_PASSWORD = os.getenv("SENDER_PASSWORD", "")
 
 def send_email(receiver, file_path):

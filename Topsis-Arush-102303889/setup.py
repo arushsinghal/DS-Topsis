@@ -4,7 +4,7 @@ setup(
     name="topsis-arush-102303889",
     version="1.0.1",
     author="Arush",
-    author_email="arushsinghal98@gmail.com",
+    author_email="your-email@example.com",
     description="TOPSIS implementation for multi-criteria decision making",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
